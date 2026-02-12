@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Para meu Amor 💙</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Fontes elegantes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Chuva de fotos - Esquerda -->
+  <div class="photo-rain left">
+    <div class="track">
+      <img src="fotos/foto 01.jpg">
+      <img src="fotos/foto 02.jpg">
+      <img src="fotos/foto 03.jpg">
+      <img src="fotos/foto 04.jpg">
+      <img src="fotos/foto 05.jpg">
+      <img src="fotos/foto 06.jpg">
+
+      <!-- repete para loop infinito -->
+      <img src="fotos/foto 01.jpg">
+      <img src="fotos/foto 02.jpg">
+      <img src="fotos/foto 03.jpg">
+      <img src="fotos/foto 04.jpg">
+      <img src="fotos/foto 05.jpg">
+      <img src="fotos/foto 06.jpg">
+    </div>
+  </div>
+
+  <!-- Chuva de fotos - Direita -->
+  <div class="photo-rain right">
+    <div class="track">
+      <img src="fotos/foto 07.jpg">
+      <img src="fotos/foto 08.jpg">
+      <img src="fotos/foto 09.jpg">
+      <img src="fotos/foto 10.jpg">
+      <img src="fotos/foto 11.jpg">
+      <img src="fotos/foto 12.jpg">
+
+      <!-- repete para loop infinito -->
+      <img src="fotos/foto 07.jpg">
+      <img src="fotos/foto 08.jpg">
+      <img src="fotos/foto 09.jpg">
+      <img src="fotos/foto 10.jpg">
+      <img src="fotos/foto 11.jpg">
+      <img src="fotos/foto 12.jpg">
+    </div>
+  </div>
+
+  <!-- Controle invisível (sem JS) -->
+  <input type="checkbox" id="openLetter" hidden>
+
+  <!-- Tela do envelope -->
+  <label for="openLetter" class="envelope-screen">
+    <div class="envelope">
+      <div class="envelope-top"></div>
+      <div class="envelope-body">
+        <span>💙</span>
+        <p>Para: Matheus<br>De: Seu Valentim</p>
+      </div>
+    </div>
+    <p class="hint">Clique no envelope</p>
+  </label>
+
+  <!-- Conteúdo da carta -->
+  <main class="container" id="letterContent">
+    <div class="card">
+
+      <h1>Para você, meu amor 💙</h1>
+
+      <div class="audio-box">
+        <p>Ouça isso com carinho:</p>
+        <audio controls>
+          <source src="fotos/Poema.m4a" type="audio/mpeg">
+          Seu navegador não suporta áudio.
+        </audio>
+      </div>
+
+      <div class="letter">
+        <p><em>
+         Dizem que houve um tempo em que amar era proibido,
+Que escolher alguém podia custar a própria paz.
+Num mundo de ordens duras e silêncios impostos,
+Amar era quase um segredo dito baixo demais.<br>
+
+Foi nesse tempo que viveu um homem chamado Valentim,
+Que acreditava mais no amor do que no medo.
+Enquanto diziam “não”, ele dizia “sim”,
+E unia corações às escondidas, em segredo.<br>
+
+Celebrava casamentos como quem acende luz no escuro,
+Como quem diz: “o amor ainda existe aqui”.
+Mesmo sabendo do risco, mesmo sabendo do futuro,
+Ele escolheu ficar do lado do amor até o fim.<br>
+
+Quando o mundo o apertou entre grades e despedidas,
+Dizem que antes de partir ele escreveu com o coração:
+Poucas palavras, simples, mas cheias de vida:
+“Do seu Valentim.” — e virou eternidade em forma de canção.<br>
+
+E eu penso na nossa história enquanto penso na dele,
+Em como amar também foi, pra nós, um ato de escolher.
+Num mundo que nem sempre facilita, nem sempre acolhe,
+A gente ficou. A gente foi. A gente decidiu ser.<br>
+
+Nós fomos escolha antes de sermos costume,
+Fomos coragem antes de sermos calma,
+Fomos amor antes de termos nome,
+E viramos casa no meio da bagunça da alma.<br>
+
+Se amar é um ato de resistência,
+Então nós somos prova viva disso aqui:
+Dois corações dizendo, todos os dias,
+“Eu fico. Eu escolho. Eu estou aqui por ti.”<br>
+
+Entre todos os caminhos, eu sempre escolheria a sua mão,
+Mesmo se o mundo inteiro pedisse pra eu soltar.
+Porque te amar não é acaso, não é distração —
+É decisão, é coragem, é ficar.<br>
+
+E se um dia alguém perguntar de que lado eu estou,
+Que saibam: eu estou do lado do amor, como Valentim.
+Com tudo o que eu sou, com tudo o que eu soube ser,
+Hoje e sempre,<br>
+        </em></p>
+      </div>
+
+      <div class="signature">
+        <p>Com todo o meu amor,</p>
+        <strong>Do seu Valentim. 🩵</strong>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
